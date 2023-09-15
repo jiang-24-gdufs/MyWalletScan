@@ -9,7 +9,7 @@ const Zksync = React.lazy(() => import("@pages/Zksync"));
 const MainPage = React.lazy(() => import("@pages/MainPage"));
 const Stark = React.lazy(() => import("@pages/Stark"));
 const Layer = React.lazy(() => import("@pages/Layer"));
-const Coffee = React.lazy(() => import("@pages/Coffee"));
+const AddressBook = React.lazy(() => import("@pages/AddressBook"));
 const ZkInfo = React.lazy(() => import("@pages/ZkInfo"));
 const Setting = React.lazy(() => import("@pages/Setting"));
 const router = [
@@ -41,8 +41,8 @@ const router = [
                 element: <Layer/>,
             },
             {
-                path: '/coffee',
-                element: <Coffee/>,
+                path: '/AddressBook',
+                element: <AddressBook/>,
             },
             {
                 path: '/setting',
